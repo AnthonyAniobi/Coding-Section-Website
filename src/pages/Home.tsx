@@ -44,14 +44,14 @@ export function Home() {
         </div>
         <div className="hero-content">
           <div className="hero-kicker">
-            <p className="mono">Independent game designer</p>
-            <p className="mono">Est. 2020</p>
+            <p className="mono">Game developer</p>
+            <p className="mono">codinsection.com</p>
           </div>
           <h1 className="hero-title">
             <SplitText text={site.name} by="chars" />
           </h1>
           <div className="hero-sub">
-            <p className="hero-role">{site.tagline} Systems, worlds, and the feel between them.</p>
+            <p className="hero-role">{site.tagline} Built for every device, and the play between them.</p>
             <div className="scroll-hint">
               <b />
               <span className="mono">Scroll to deploy</span>

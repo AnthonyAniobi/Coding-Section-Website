@@ -8,15 +8,15 @@ export function About() {
     <div className="page">
       <section className="section">
         <Reveal>
-          <p className="mono">Profile / {site.name}</p>
+          <p className="mono">Profile / {site.person}</p>
           <h1 className="section-title" style={{ marginTop: '0.8rem' }}>
-            <SplitText text="I design games that behave like places." />
+            <SplitText text="I build games that hold up anywhere." />
           </h1>
         </Reveal>
         <div className="about-grid" style={{ marginTop: '3.5rem' }}>
           <Reveal>
             <div className="portrait frame">
-              <img src="/images/portrait.jpg" alt={`${site.name}, game designer`} />
+              <img src="/images/avatar.svg" alt="" />
             </div>
             <img
               src="/images/setup.jpg"
@@ -27,17 +27,17 @@ export function About() {
           <div>
             <Reveal>
               <p className="prose">
-                {site.name} is a game designer and systems programmer who treats feel as architecture.
-                Before a set piece, there is a loop. Before a cutscene, there is a rule the player can
-                break in an interesting way. The work lives between Unreal, Unity, and Godot — wherever
-                the prototype wants to breathe first.
+                {site.person} is a game developer in {site.location}, and the person behind Coding
+                Section. The games are built to perform on every device they land on, without giving up
+                how they play.
               </p>
             </Reveal>
             <Reveal delay={0.08}>
               <p className="prose" style={{ marginTop: '1.2rem' }}>
-                Sample copy for now: swap this with your real story, credits, and the studios you have
-                shipped with. The images and worlds on this site are placeholders meant to show motion,
-                pacing, and tone.
+                Alongside the engineering is applied machine learning and human–computer interaction:
+                modeling player attention and engagement, and using computer vision as part of play.
+                Real-time multiplayer architecture and cross-platform systems are how that work stays
+                inside a live game.
               </p>
             </Reveal>
             <div className="skills">

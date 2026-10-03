@@ -59,7 +59,7 @@ npm run lint
 | Shared motion UI | `src/components/` |
 | Color, type, layout | `src/index.css` |
 
-The contact form posts to Web3Forms. Create an access key for `anthony@codinsection.com`, then copy `.env.example` to `.env.local` and set `VITE_WEB3FORMS_ACCESS_KEY`. That file stays off git.
+The contact form posts to Web3Forms. Create an access key for `anthony@codingsection.com`, then copy `.env.example` to `.env.local` and set `VITE_WEB3FORMS_ACCESS_KEY`. That file stays off git.
 
 ## Deploy
 
