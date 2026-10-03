@@ -24,7 +24,7 @@ A cinematic portfolio for a game designer and systems programmer. Dark studio ch
 | `/work` | Filterable archive (Systems, Narrative, Arcade) |
 | `/work/:slug` | Project case page |
 | `/about` | Profile, timeline, and toolkit |
-| `/contact` | Demo contact form |
+| `/contact` | Contact form, delivered by Web3Forms |
 | anything else | 404 |
 
 Sample copy and five worlds (Ember Protocol, Hollow Tide, Neon Drift, Last Lantern, Dusk Array) are placeholders. Swap them before treating this as a personal site.
@@ -59,8 +59,10 @@ npm run lint
 | Shared motion UI | `src/components/` |
 | Color, type, layout | `src/index.css` |
 
-The contact form stays in the browser. It shows a success state and does not send mail until it is wired to a backend.
+The contact form posts to Web3Forms. Create an access key for `anthony@codinsection.com`, then copy `.env.example` to `.env.local` and set `VITE_WEB3FORMS_ACCESS_KEY`. That file stays off git.
 
 ## Deploy
 
 Netlify builds with `npm run build` and publishes `dist`. `netlify.toml` rewrites every path to `index.html` so client-side routes survive a refresh. The badge above tracks the [codingsection](https://app.netlify.com/projects/codingsection/deploys) deploys.
+
+The deploy workflow reads the `WEB3FORMS_ACCESS_KEY` repository secret and passes it to Vite as `VITE_WEB3FORMS_ACCESS_KEY`. The build stops if that secret is missing. The key is public in the shipped page; Web3Forms expects that. It only routes mail to the inbox you verified when you created the key.

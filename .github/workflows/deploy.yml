@@ -28,7 +28,14 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        env:
+          VITE_WEB3FORMS_ACCESS_KEY: ${{ secrets.WEB3FORMS_ACCESS_KEY }}
+        run: |
+          if [ -z "$VITE_WEB3FORMS_ACCESS_KEY" ]; then
+            echo "Missing WEB3FORMS_ACCESS_KEY repository secret."
+            exit 1
+          fi
+          npm run build
 
       - name: Deploy to Netlify
         env:

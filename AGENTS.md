@@ -28,7 +28,7 @@ Respect `prefers-reduced-motion`. Route changes go through `RouterFrame` in `src
 - Pages: `src/pages/`
 - Shared motion UI: `src/components/`
 
-The contact form is a local demo (`preventDefault` + success state). It does not send mail.
+The contact form posts to Web3Forms using `VITE_WEB3FORMS_ACCESS_KEY`. Locally that lives in `.env.local`. In GitHub Actions it comes from the `WEB3FORMS_ACCESS_KEY` repository secret.
 
 ## Commands
 
