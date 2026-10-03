@@ -9,8 +9,8 @@ export const site = {
   location: 'Lagos, Nigeria',
   availability: "Available '26",
   socials: [
-    { label: 'Itch.io', href: 'https://itch.io' },
-    { label: 'GitHub', href: 'https://github.com' },
+    { label: 'Itch.io', href: 'https://itch.io/profile/codingsection' },
+    { label: 'GitHub', href: 'https://github.com/AnthonyAniobi/' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com' },
     { label: 'X', href: 'https://x.com' },
   ],

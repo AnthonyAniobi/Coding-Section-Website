@@ -1,12 +1,12 @@
-# Anthony Atelier
+# Coding Section
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/25ef82a1-5245-4918-930c-8af2aa5249f0/deploy-status)](https://app.netlify.com/projects/codingsection/deploys)
 
-A cinematic portfolio for a game designer and systems programmer. Dark studio chrome, full-screen route transitions, and a small archive of worlds — built to feel like a place, not a résumé.
+A cinematic portfolio for Anthony Ogadimma Aniobi, a game developer in Lagos. Dark studio chrome, full-screen route transitions, and a small archive of worlds.
 
 ## Preview
 
-![Home — Anthony Atelier hero](docs/screenshots/home.png)
+![Home — Coding Section hero](docs/screenshots/home.png)
 
 | Selected work | Project |
 | --- | --- |
@@ -14,7 +14,7 @@ A cinematic portfolio for a game designer and systems programmer. Dark studio ch
 
 | About | Contact |
 | --- | --- |
-| ![About page with portrait and skills](docs/screenshots/about.png) | ![Contact page with the signal form](docs/screenshots/contact.png) |
+| ![About page with profile and skills](docs/screenshots/about.png) | ![Contact page with the signal form](docs/screenshots/contact.png) |
 
 ## Routes
 
