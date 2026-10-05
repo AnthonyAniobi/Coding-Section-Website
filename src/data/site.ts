@@ -9,10 +9,11 @@ export const site = {
   location: 'Lagos, Nigeria',
   availability: "Available '26",
   socials: [
-    { label: 'Itch.io', href: 'https://itch.io/profile/codingsection' },
+    { label: 'Itch.io', href: 'https://codingsection.itch.io/' },
     { label: 'GitHub', href: 'https://github.com/AnthonyAniobi/' },
+    { label: 'TikTok', href: 'https://www.tiktok.com/@codingsection' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com' },
-    { label: 'X', href: 'https://x.com' },
+    // { label: 'X', href: 'https://x.com' },
   ],
   tools: [
     'Unreal Engine',
