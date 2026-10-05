@@ -13,13 +13,13 @@ export const site = {
     { label: 'GitHub', href: 'https://github.com/AnthonyAniobi/' },
     { label: 'TikTok', href: 'https://www.tiktok.com/@codingsection' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/anthony-aniobi/' },
-    // { label: 'X', href: 'https://x.com' },
+    { label: 'X', href: 'https://x.com/coding_section' },
   ],
   tools: [
     'Unreal Engine',
     'Unity',
     'Godot',
-    'Flask',
+    'Flame',
     'C++',
     'C#',
     'Flutter',
@@ -49,7 +49,7 @@ export const site = {
     {
       year: 'HCI',
       title: 'How players meet the game',
-      body: 'Human–computer interaction, including computer vision as a way to play.',
+      body: 'Human-computer interaction, including computer vision as a way to play.',
     },
     {
       year: 'Net',
