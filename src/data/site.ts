@@ -12,7 +12,7 @@ export const site = {
     { label: 'Itch.io', href: 'https://codingsection.itch.io/' },
     { label: 'GitHub', href: 'https://github.com/AnthonyAniobi/' },
     { label: 'TikTok', href: 'https://www.tiktok.com/@codingsection' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/anthony-aniobi/' },
     // { label: 'X', href: 'https://x.com' },
   ],
   tools: [
