@@ -11,8 +11,8 @@ import { SplitText } from '../components/SplitText'
 import { Magnetic } from '../components/Magnetic'
 
 export function Home() {
-  const featured = projects[0]
-  const selected = projects.slice(1, 4)
+  const featured = projects[0] // pick the first project
+  const selected = projects.slice(1, 4) // pick the next 3 projects
   const { scrollY } = useScroll()
   const imageY = useTransform(scrollY, [0, 600], [0, 140])
   const imageScale = useTransform(scrollY, [0, 600], [1, 1.12])
@@ -51,7 +51,7 @@ export function Home() {
             <SplitText text={site.name} by="chars" />
           </h1>
           <div className="hero-sub">
-            <p className="hero-role">{site.tagline} Built for every device, and the play between them.</p>
+            <p className="hero-role">{site.tagline}</p>
             <div className="scroll-hint">
               <b />
               <span className="mono">Scroll to deploy</span>
