@@ -220,11 +220,11 @@ export const projects: Project[] = [
     engine: 'Flutter / Supabase',
     genre: 'Social / Party',
     tag: 'Narrative',
-    cover: '/images/justus.webp',
+    cover: '/images/justus/justus.webp',
     images: [
-      '/images/justus.webp',
-      '/images/justus-1.webp',
-      '/images/justus-2.webp',
+      '/images/justus/justus.webp',
+      '/images/justus/justus-1.webp',
+      '/images/justus/justus-2.webp',
     ],
     excerpt: 'Question games that break the ice — then go deeper with friends and partners.',
     description:
