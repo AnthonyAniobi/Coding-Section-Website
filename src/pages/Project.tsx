@@ -49,6 +49,15 @@ export function Project() {
           <p className="prose" style={{ marginTop: '1.2rem' }}>
             {project.description}
           </p>
+          {project.links?.length ? (
+            <div className="store-links">
+              {project.links.map((link) => (
+                <a key={link.href} className="btn btn-ember" href={link.href} target="_blank" rel="noreferrer">
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          ) : null}
         </Reveal>
         <div className={`gallery gallery-${project.orientation}`} style={{ marginTop: '3rem' }}>
           {project.video ? (

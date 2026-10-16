@@ -15,6 +15,8 @@ export type Project = {
   images: string[]
   orientation: GalleryOrientation
   video?: string
+  /** Store and web pages. Only entries you set appear on the project page. */
+  links?: { label: string; href: string }[]
   excerpt: string
   description: string
   accent: string
@@ -76,7 +78,9 @@ export const projects: Project[] = [
       'Avatar Clash is a realtime 1v1 2D fighting game built for head-to-head matches with friends. Players pick a fighter, learn move timing, and chain combos in short competitive rounds. I designed the combat feel, responsive controls, and clean arcade presentation for side-by-side or remote challenge play.',
     accent: '#ff5c1a',
     featured: true,
-    // storeUrl: 'https://play.google.com/store/apps/details?id=com.anonsoft.fighting_game',
+    links: [
+      { label: 'Play Store', href: 'https://play.google.com/store/apps/details?id=com.anonsoft.fighting_game' },
+    ],
     credits: [
       { label: 'Platform', value: 'Android' },
       { label: 'Status', value: 'Live on Play Store' },
@@ -161,7 +165,9 @@ export const projects: Project[] = [
       'A full online chess experience for casual play and ranked competition: solo practice, friend challenges, and global matchmaking. Wins earn coins; advanced AI opponents push skill. Game history supports replay and analysis. A research-driven feature uses on-device machine-learning face detection to model player attention during matches.',
     accent: '#e4b25a',
     featured: true,
-    // storeUrl: 'https://play.google.com/store/apps/details?id=org.anonglobal.chess_game',
+    links: [
+      { label: 'Play Store', href: 'https://play.google.com/store/apps/details?id=org.anonglobal.chess_game' },
+    ],
     credits: [
       { label: 'Platform', value: 'Android' },
       { label: 'Status', value: 'Live on Play Store' },
@@ -188,7 +194,9 @@ export const projects: Project[] = [
       'Sudokku (Sudoku Multiplayer) is a competitive take on the classic grid. Board sizes span 4×4 through 25×25. Modes cover solo solving, 1v1 against friends, and group matches with coin rewards and leaderboards. I focused on a clean, distraction-free UI that stays readable when the grid gets huge.',
     accent: '#7ec8c8',
     featured: true,
-    // storeUrl: 'https://play.google.com/store/apps/details?id=org.anonglobal.sudokku',
+    links: [
+      { label: 'Play Store', href: 'https://play.google.com/store/apps/details?id=org.anonglobal.sudokku' },
+    ],
     credits: [
       { label: 'Platform', value: 'Android' },
       { label: 'Status', value: 'Live on Play Store' },
@@ -215,7 +223,9 @@ export const projects: Project[] = [
       'Oya One More is a fast press-your-luck dice and card game. Match five dice to a card pattern, bank safely, or keep rolling for bigger rewards — bust and the turn is gone. Ninety cards include twenty specials (steal, change a die, re-roll, double points). Shipped at NibCard E-Games with Flutter and a Supabase realtime backend.',
     accent: '#ff3d8b',
     featured: false,
-    // storeUrl: 'https://play.google.com/store/apps/details?id=com.oyaonemore.game',
+    links: [
+      { label: 'Play Store', href: 'https://play.google.com/store/apps/details?id=com.oyaonemore.game' },
+    ],
     credits: [
       { label: 'Platform', value: 'iOS / Android' },
       { label: 'Status', value: 'Live on stores' },
@@ -242,7 +252,9 @@ export const projects: Project[] = [
       'Just Us turns ordinary hangouts into conversation games: category prompts from light and funny to deep, custom questions, community decks, and private groups for dates or teams. Built at NibCard E-Games with Flutter, Supabase Auth/Realtime, encrypted in-game communication, and voice features with waveform playback.',
     accent: '#c084fc',
     featured: false,
-    // storeUrl: 'https://play.google.com/store/apps/details?id=com.justus.game',
+    links: [
+      { label: 'Play Store', href: 'https://play.google.com/store/apps/details?id=com.justus.game' },
+    ],
     credits: [
       { label: 'Platform', value: 'iOS / Android' },
       { label: 'Status', value: 'Live on stores' },
