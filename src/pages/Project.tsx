@@ -50,7 +50,21 @@ export function Project() {
             {project.description}
           </p>
         </Reveal>
-        <div className="gallery" style={{ marginTop: '3rem' }}>
+        <div className={`gallery gallery-${project.orientation}`} style={{ marginTop: '3rem' }}>
+          {project.video ? (
+            <Reveal className={project.orientation === 'landscape' ? 'gallery-span' : undefined}>
+              <video
+                className="gallery-video"
+                controls
+                playsInline
+                preload="metadata"
+                poster={project.cover}
+                aria-label={`${project.title} gameplay`}
+              >
+                <source src={project.video} type="video/mp4" />
+              </video>
+            </Reveal>
+          ) : null}
           {project.images.map((src, index) => (
             <Reveal key={src} delay={index * 0.08}>
               <img src={src} alt={`${project.title} still ${index + 1}`} />

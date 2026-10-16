@@ -894,10 +894,39 @@ p {
   gap: 1rem;
 }
 
-.gallery img {
+.gallery-landscape {
+  grid-template-columns: 1fr;
+}
+
+.gallery-portrait {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gallery-span {
+  grid-column: 1 / -1;
+}
+
+.gallery img,
+.gallery-video {
   width: 100%;
   border-radius: 6px;
-  object-fit: cover;
+  background: #0c0c0e;
+}
+
+.gallery img {
+  height: auto;
+  object-fit: contain;
+}
+
+.gallery-landscape .gallery-video {
+  grid-column: 1 / -1;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+}
+
+.gallery-portrait .gallery-video {
+  aspect-ratio: 9 / 16;
+  object-fit: contain;
 }
 
 .adjacent {
@@ -1152,6 +1181,13 @@ p {
 
   .project-hero {
     min-height: 60vh;
+  }
+}
+
+@media (min-width: 900px) {
+  .gallery-portrait {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+    justify-content: start;
   }
 }
 
