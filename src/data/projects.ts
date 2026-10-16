@@ -48,6 +48,9 @@ export const projects: Project[] = [
     description: 'Zombie Survivor is a first person shooter about surviving a zombie apocalypse.',
     accent: '#e4b25a',
     featured: false,
+    links: [
+      { label: 'Github', href: 'https://github.com/AnthonyAniobi/First_Person_Shotter_Unity' },
+    ],
     credits: [
       { label: 'Platform', value: 'PC' },
       { label: 'Status', value: 'In Development' },
@@ -114,6 +117,11 @@ export const projects: Project[] = [
       'Last Lantern is a walking story about grief as geography. Paths close when you look at them too long. I laid out the forest as a looping memory, wrote the lantern as both UI and character, and used Godot to keep the whole world in one breath.',
     accent: '#e4b25a',
     featured: false,
+    links: [
+      { label: 'Itch.io', href: 'https://codingsection.itch.io/die-another-century' },
+      { label: 'Github', href: 'https://github.com/AnthonyAniobi/Die-Another-Century' },
+
+    ],
     credits: [
       { label: 'Platform', value: 'Web' },
       { label: 'Status', value: 'Shipped jam+' },
@@ -254,6 +262,7 @@ export const projects: Project[] = [
     featured: false,
     links: [
       { label: 'Play Store', href: 'https://play.google.com/store/apps/details?id=com.justus.game' },
+      { label: 'AppStore', href: 'https://apps.apple.com/us/app/just-us-conversations/id6765485082' },
     ],
     credits: [
       { label: 'Platform', value: 'iOS / Android' },
