@@ -1,0 +1,37 @@
+Sudoku Multiplayer is a modern and competitive twist on the classic puzzle game you love.
+
+Play Sudoku your way — whether you enjoy solving puzzles alone or competing with friends in real-time.
+
+🧩 Multiple Board Sizes
+Choose your challenge level:
+
+4x4 – Quick and beginner-friendly
+
+9x9 – Classic Sudoku experience
+
+16x16 – Advanced challenge
+
+25x25 – Ultimate brain test
+
+👥 Multiplayer Modes
+
+Play 1v1 against friends
+
+Compete in group matches
+
+Solve puzzles solo at your own pace
+
+💰 Earn Coins
+Win matches and earn coins as rewards. Show off your skills and climb the leaderboard.
+
+🎯 Designed for All Skill Levels
+Whether you're just starting or you're a Sudoku master, there's a board size and mode for you.
+
+🌙 Clean, Modern Design
+Enjoy a smooth, distraction-free interface built for focus and strategy.
+
+Challenge your brain. Compete with friends. Master every grid.
+
+Download Sudoku Multiplayer today and start solving!
+
+google playstore link: https://play.google.com/store/apps/details?id=org.anonglobal.sudokku

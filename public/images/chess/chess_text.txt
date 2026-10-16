@@ -1,0 +1,43 @@
+**♟️ Chess Multiplayer – Play. Compete. Earn.**
+
+Step into a powerful online chess experience built for both casual players and serious competitors. Whether you want to sharpen your skills alone, challenge friends, or face players from around the world, this app gives you total control of how you play.
+
+**🔥 Key Features**
+
+* **Play Your Way**
+
+  * Play solo to practice and improve
+  * Challenge friends in real-time multiplayer matches
+  * Search and match with players online from anywhere
+
+* **Win Games, Earn Coins**
+
+  * Defeat your opponent and earn coins from the loser
+  * Climb the ranks and build your coin balance
+  * 💰 *Cash redemption coming soon* — your wins will soon pay off in real money
+
+* **Advanced AI Lords**
+
+  * Test your skills against powerful AI opponents
+  * AI models trained for advanced chess strategies
+  * Perfect for learning, practice, and pushing your limits
+
+* **Game History & Analysis**
+
+  * Automatically save your past games
+  * Replay matches anytime
+  * Learn from your mistakes and improve your strategy
+
+* **Smooth Online Experience**
+
+  * Real-time gameplay
+  * Secure player matching
+  * Fair and competitive environment
+
+Whether you’re a beginner learning the board or a chess master hunting real rewards, this app is built to grow with you.
+
+♜ **Play smart. Win big. Become a chess legend.**
+
+
+playstore link: https://play.google.com/store/apps/details?id=org.anonglobal.chess_game
+
