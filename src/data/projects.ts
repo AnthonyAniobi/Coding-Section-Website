@@ -35,7 +35,6 @@ export const projects: Project[] = [
     images: [
       '/images/zombie-survivor/Screenshot1.png',
       '/images/zombie-survivor/Screenshot2.png',
-      '/images/zombie-survivor/Screenshot3.png',
       '/images/zombie-survivor/Screenshot4.png',
       '/images/zombie-survivor/Screenshot5.png',
       '/images/zombie-survivor/Screenshot6.png',
@@ -129,7 +128,6 @@ export const projects: Project[] = [
     images: [
       '/images/human-chess/humanChessPicture1.png',
       '/images/human-chess/humanChessPicture2.png',
-      '/images/human-chess/humanChessPicture3.png',
     ],
     orientation: 'landscape',
     video: '/images/human-chess/HumanChess.mp4',
@@ -156,7 +154,6 @@ export const projects: Project[] = [
       '/images/chess/screenshot_chess1.webp',
       '/images/chess/screenshot_chess3.webp',
       '/images/chess/screenshot_chess4.webp',
-      '/images/chess/Banner-image.png',
     ],
     orientation: 'portrait',
     excerpt: 'Online chess with AI lords, coin stakes, and on-device attention detection.',
@@ -211,7 +208,6 @@ export const projects: Project[] = [
       '/images/oya_one_more/oom1.webp',
       '/images/oya_one_more/oom2.webp',
       '/images/oya_one_more/oom3.webp',
-      '/images/oya_one_more/oom.webp',
     ],
     orientation: 'portrait',
     excerpt: 'Press-your-luck dice and cards — bank the score, or whisper “one more.”',
@@ -234,7 +230,7 @@ export const projects: Project[] = [
     engine: 'Flutter / Supabase',
     genre: 'Social / Party',
     tag: 'Narrative',
-    cover: '/images/justus/justus.webp',
+    cover: '/images/justus/banner_image.png',
     images: [
       '/images/justus/justus.webp',
       '/images/justus/justus1.webp',
