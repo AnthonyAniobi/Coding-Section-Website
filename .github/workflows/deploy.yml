@@ -44,13 +44,25 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          # Push to main is always production. Manual runs follow the checkbox.
+          # inputs is empty on push, so the old check never passed --prod.
+          PRODUCTION: ${{ github.event_name == 'push' || inputs.production }}
         run: |
           if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
             echo "Missing NETLIFY_AUTH_TOKEN or NETLIFY_SITE_ID repository secrets."
             exit 1
           fi
 
-          npx --yes netlify-cli deploy \
-            --dir=dist \
-            --message "GitHub Actions ${GITHUB_SHA}" \
-            $([ "${{ inputs.production }}" = "true" ] && echo "--prod")
+          args=(
+            --dir=dist
+            --message "GitHub Actions ${GITHUB_SHA}"
+          )
+
+          if [ "$PRODUCTION" = "true" ]; then
+            args+=(--prod)
+            echo "Publishing this deploy as the live production site."
+          else
+            echo "Creating a draft deploy. The live site will stay on the current deploy."
+          fi
+
+          npx --yes netlify-cli deploy "${args[@]}"
